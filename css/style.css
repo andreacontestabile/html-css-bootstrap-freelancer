@@ -35,10 +35,30 @@ section h2 {
   margin: 30px auto 0;
 }
 
+#footer-top, #footer-bottom {
+  padding: 30px 0;
+  background-color: #666;
+  text-align: center;
+}
+
+.footer-column {
+  height: 200px;
+  width: 100%;
+  background-color: #ddd;
+}
+
+#footer-bottom {
+  color: #fff;
+  background-color: #333;
+}
 
 @media screen and (max-width: 768px) {
 .about-text {
   padding: 0 40px 30px;
+}
+
+.footer-column {
+  margin-bottom: 20px;
 }
 
 }
