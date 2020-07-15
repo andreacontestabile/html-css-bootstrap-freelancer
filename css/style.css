@@ -9,7 +9,7 @@
   background-color: #ddd;
 }
 
-#portfolio {
+section h2 {
   text-align: center;
 }
 
@@ -19,4 +19,26 @@
   max-width: 500px;
   margin: 0 auto 20px;
   background-color: #ddd;
+}
+
+#about, .jumbotron {
+  background-color: #666;
+}
+
+#about {
+  padding: 40px 0;
+  color: #fff;
+}
+
+#about button {
+  display: block;
+  margin: 30px auto 0;
+}
+
+
+@media screen and (max-width: 768px) {
+.about-text {
+  padding: 0 40px 30px;
+}
+
 }
