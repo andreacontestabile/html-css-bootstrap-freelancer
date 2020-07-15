@@ -8,3 +8,15 @@
   width: 100%;
   background-color: #ddd;
 }
+
+#portfolio {
+  text-align: center;
+}
+
+.portfolio-item {
+  height: 300px;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto 20px;
+  background-color: #ddd;
+}
