@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>html-css-bootstrap-freelancer</title>
@@ -11,33 +12,34 @@
     <!-- header -->
     <header>
       <!-- navigation -->
-      <nav class="navbar navbar-inverse">
+      <div class="header_top bg_dark text-uppercase">
         <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Project name</a>
+          <div class="row">
+            <div class="col-xs-12 clearfix">
+              <a id="brand" href="#">Start Bootstrap</a>
+              <nav class="visible-md visible-lg pull-right">
+                <ul class="main_menu">
+                  <li class="main_menu_item list_inline"><a href="#">Portfolio</a></li>
+                  <li class="main_menu_item list_inline"><a href="#">About</a></li>
+                  <li class="main_menu_item list_inline"><a href="#">Contact</a></li>
+                </ul>
+              </nav>
+              <div class="hamburger_menu visible-xs visible-sm pull-right">
+                <button type="button" class="btn btn_aqua">
+                  <span class="glyphicon glyphicon-menu-hamburger"></span>
+                </button>
+              </div>
+            </div>
           </div>
-          <div id="navbar" class="collapse navbar-collapse navbar-right">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Portfolio</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
         </div>
-      </nav>
+      </div>
       <!-- /navigation -->
       <!-- jumbotron -->
       <section class="jumbotron">
         <div class="container">
           <div class="row">
             <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
-              <div class="hero-content">
+              <div class="hero_content">
 
               </div>
             </div>
@@ -55,22 +57,22 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="portfolio-item"></div>
+              <div class="portfolio_item"></div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
               <div class="portfolio-item"></div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="portfolio-item"></div>
+              <div class="portfolio_item"></div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="portfolio-item"></div>
+              <div class="portfolio_item"></div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="portfolio-item"></div>
+              <div class="portfolio_item"></div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="portfolio-item"></div>
+              <div class="portfolio_item"></div>
             </div>
           </div>
         </div>
@@ -82,12 +84,12 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-12 col-sm-6">
-              <div class="about-text">
+              <div class="about_text">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos eaque, commodi non sed, ad quo minus tempore. Facere nostrum amet culpa, voluptatum blanditiis molestias nemo dolorem, quas praesentium illo! Quasi!</p>
               </div>
             </div>
             <div class="col-xs-12 col-sm-6">
-              <div class="about-text">
+              <div class="about_text">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos eaque, commodi non sed, ad quo minus tempore. Facere nostrum amet culpa, voluptatum blanditiis molestias nemo dolorem, quas praesentium illo! Quasi!</p>
               </div>
             </div>
@@ -132,24 +134,24 @@
     <!-- footer -->
     <footer>
       <!-- footer-top -->
-      <div id="footer-top">
+      <div id="footer_top">
         <div class="container">
           <div class="row">
             <div class="col-xs-12 col-sm-4">
-              <div class="footer-column"></div>
+              <div class="footer_column"></div>
             </div>
             <div class="col-xs-12 col-sm-4">
-              <div class="footer-column"></div>
+              <div class="footer_column"></div>
             </div>
             <div class="col-xs-12 col-sm-4">
-              <div class="footer-column"></div>
+              <div class="footer_column"></div>
             </div>
           </div>
         </div>
       </div>
       <!-- /footer-top -->
       <!-- footer-bottom -->
-      <div id="footer-bottom">
+      <div id="footer_bottom">
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
