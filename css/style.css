@@ -31,10 +31,13 @@ body {
 }
 
 .btn_transparent {
-  padding: 18px 30px;
-  font-size: 20px;
   background: none;
   border: 2px solid #fff;
+}
+
+.btn_p {
+  padding: 18px 30px;
+  font-size: 20px;
 }
 
 .list_inline {
@@ -149,6 +152,20 @@ header {
 
 #about button {
   margin-top: 40px;
+}
+
+#contact input, #contact textarea {
+  padding: 50px 0;
+  border: none;
+  border-bottom: 1px solid #E9ECEF;
+  outline: none;
+  font-size: 24px;
+  box-shadow: none;
+  resize: none;
+}
+
+#contact .form-control {
+  color: #888;
 }
 
 #footer_top, #footer_bottom {
