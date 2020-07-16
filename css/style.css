@@ -164,20 +164,45 @@ header {
   resize: none;
 }
 
-#contact .form-control {
-  color: #888;
-}
-
-#footer_top, #footer_bottom {
-  padding: 30px 0;
-  background-color: #666;
+#footer_top {
+  padding: 60px 0;
+  color: #fff;
   text-align: center;
 }
 
-.footer_column {
-  height: 200px;
-  width: 100%;
-  background-color: #ddd;
+#footer_top h3 {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#footer_top ul {
+  padding: 0;
+}
+
+#footer_top li {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+#footer_top li:not(:first-child) {
+  margin-left: 15px;
+}
+
+#footer_top .footer_social li a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+}
+
+#footer_top a {
+  color: #1ABC9C;
 }
 
 #footer_bottom {
@@ -216,5 +241,9 @@ header {
 
   .hero_content p {
     font-size: 20px;
+  }
+
+  .footer_column {
+    margin-bottom: 20px;
   }
 }
