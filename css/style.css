@@ -29,11 +29,13 @@ body {
 .btn_aqua {
   background-color: #1ABC9C;
   color: #fff;
+  border-radius: 8px;
 }
 
 .btn_transparent {
   background: none;
   border: 2px solid #fff;
+  border-radius: 8px;
 }
 
 .btn_p {
@@ -125,6 +127,21 @@ header {
   color: #1ABC9C;
 }
 
+.hamburger_menu button {
+  padding: 12px 15px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.hamburger_menu button:hover {
+  background-color: #159A80;
+  color: #fff;
+}
+
+.hamburger_menu button span {
+  margin-left: 4px;
+}
+
 .hero {
   margin-top: 100px;
   padding: 80px 0;
@@ -188,6 +205,10 @@ header {
   margin-top: 40px;
 }
 
+#about button:hover {
+  background-color: #fff;
+}
+
 /* Sezione Contact */
 
 #contact input, #contact textarea {
@@ -198,6 +219,11 @@ header {
   font-size: 24px;
   box-shadow: none;
   resize: none;
+}
+
+#contact form button:hover {
+  background-color: #159A80;
+  color: #fff;
 }
 
 /* Footer */
@@ -264,11 +290,11 @@ header {
   padding: 0 40px 30px;
 }
 
-.portfolio_item img {
+.portfolio_item {
   display: block;
   max-width: 400px;
-  margin: 0 auto;
 }
+
 
 }
 
