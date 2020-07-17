@@ -146,12 +146,40 @@ header {
 /* Sezione Portfolio */
 
 .portfolio_item {
+  position: relative;
   margin: 0 auto 20px;
+}
+
+.portfolio_item:hover .portfolio_item_overlay {
+  opacity: 1;
+  transition: opacity 0.3s;
 }
 
 .portfolio_item img {
   width: 100%;
   border-radius: 10px;
+}
+
+.portfolio_item_overlay {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(26,188,156, 0.85);
+  border-radius: 10px;
+  transition: opacity 0.3s;
+  cursor: pointer;
+}
+
+.portfolio_item_overlay i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 75px;
+  color: #fff;
 }
 
 /* Sezione About */
